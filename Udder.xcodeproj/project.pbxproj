@@ -24,6 +24,7 @@
 		E60BE6FA24D91AD600CC4351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E60BE6FD24D91AD600CC4351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E60BE6FF24D91AD600CC4351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E60BE70524D91AE500CC4351 /* Udder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Udder.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		E60BE6F024D91ACF00CC4351 /* Udder */ = {
 			isa = PBXGroup;
 			children = (
+				E60BE70524D91AE500CC4351 /* Udder.entitlements */,
 				E60BE6F124D91ACF00CC4351 /* AppDelegate.swift */,
 				E60BE6F324D91ACF00CC4351 /* SceneDelegate.swift */,
 				E60BE6F524D91ACF00CC4351 /* ViewController.swift */,
@@ -284,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Udder/Udder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3DV957AQ8;
 				INFOPLIST_FILE = Udder/Info.plist;
@@ -293,6 +296,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = hendyproject.Udder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Udder/Udder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X3DV957AQ8;
 				INFOPLIST_FILE = Udder/Info.plist;
@@ -311,6 +316,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = hendyproject.Udder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
